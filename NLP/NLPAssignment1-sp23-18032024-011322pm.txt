@@ -1,0 +1,35 @@
+BAHRIA UNIVERSITY (Karachi Campus)
+Department of Computer Science
+Natural Language Processing (CSC-441)
+Assignments for the semester Spring-2024
+Course Instructor: Asia Samreen 					Max Marks:20
+
+Assignment#1                                                                                         [3+3 Marks]
+Question #1: (CLO 1: PLO 1: BT: C2)
+(a)	Explain the term Language model and describe few well known Language models..
+(b)	Demonstrate the text normalization/cleaning steps for the given Text.
+Set1:
+[#Pakistani My dear why are you so sad?
+#Goodmorning Pakistan is our dear homeland.visit at www.paktourism.org.
+I was taking ride when riding in the car. Surprisingly I was not surprised when awarded by a surprise.
+It is my pleasure to make you please and be pleased pleasurly in your presence.]
+Set2:
+[Hmmmmm! Agarcha aise artists mein Munni Be&um aur Aziz Miyan qawaal ka naam bhi shamil hai, Lekin toppp of the list Attaullah Esakhelvi ka naam he samjha jata hai.
+Jin ki ibtedai zindagi aur urooj ki daastan qabil e rashk bhi hai, dilchasp bhi aur kar hawalon se qabil e taqleed bhi.In mein mauseeqi ka shauq paida hua to inho ne gungunana shuru kar diya]
+
+Question # 2: (CLO2: PLO 2: BT: C3)
+(a)	Develop a program(coding) to show the following features from input text/ provided text file.
+•	Number of Characters in each word
+•	Number of words Start with capital letter
+•	Number of unigrams
+•	Number of bigrams
+•	Number of Trigrams
+(Hint: you can use following code to extract bigram)
+nltk.bigrams(sent)# while sentence is alredy tokenized
+
+(b)	Write a program that can identify from some text file (CV) , Last Education, Experience (in term of number of years) and contact details.
+Input: CV or text
+Ouput:
+Last degree: MS(SE)
+Experience in yers:6
+Contact: 0333-2454322
